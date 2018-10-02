@@ -1,0 +1,7 @@
+import SpotifyWrapper from 'spotify-wrapper'
+
+const spotify = new SpotifyWrapper({
+  token: 'BQCkyS31SvYgh5v5DmI_cng121Iv3oplVE3NP3wmgbYu-Nw4Cz1OXCR471gmfEWsH-ctSYZgg-DG8L_oXqfls5OZ7R9JQupmB5ffVqLD43K2LkDCLWTOo6CQRiNnLvQNUb1KCq1Cg5JTil-oDIMXt5vQa3lQ3t-jcbbdjtSUKIVgUtyNvLRU0jEqXMlsrXPq85qnl_tUrjakyoxkdiivckv8bkc9CvDlAbCQqQ4-KTzftj7zlSvpC2SX-f22k7C9UzWiwTP9YVnTkPI'
+})
+
+export default spotify

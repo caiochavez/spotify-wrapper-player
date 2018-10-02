@@ -1,0 +1,32 @@
+{
+  "name": "spotify-wrapper-player",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha tests/**/*.spec.js --require babel-register",
+    "test:tdd": "./node_modules/.bin/mocha tests/**/*.spec.js --require babel-register --watch",
+    "test:coverage": "nyc npm test",
+    "start": "./node_modules/.bin/webpack-dev-server --open --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "chai": "^4.2.0",
+    "husky": "^1.1.0",
+    "jsdom": "^12.1.0",
+    "jsdom-global": "^3.0.2",
+    "mocha": "^5.2.0",
+    "nyc": "^13.0.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "dependencies": {
+    "spotify-wrapper": "^2.1.0"
+  }
+}
